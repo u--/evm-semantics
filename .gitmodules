@@ -31,3 +31,6 @@
 	path = .build/kore
 	url = https://github.com/kframework/kore
 	ignore = untracked
+[submodule ".build/libff"]
+	path = .build/libff
+	url = https://github.com/scipr-lab/libff
