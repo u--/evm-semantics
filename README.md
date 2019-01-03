@@ -73,7 +73,7 @@ After fetching this revision, you should first run `brew unlink flex`, as it is 
 After installing the above dependencies, the following command will build submodule dependencies and then KEVM:
 
 ```sh
-make deps
+make repo-deps
 make
 ```
 
