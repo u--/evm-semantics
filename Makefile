@@ -353,7 +353,7 @@ $(proof_dir)/%.test: $(proof_dir)/% split-proof-tests
 	$(TEST) --backend $(TEST_SYMBOLIC_BACKEND) $<
 
 split-proof-tests: tests/proofs/make.timestamp
-	$(MAKE) -C tests/proofs $@
+	$(MAKE) -C tests/proofs $@ MODE=minimal
 
 # Media
 # -----
